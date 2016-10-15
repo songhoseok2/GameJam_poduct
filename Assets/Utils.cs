@@ -73,4 +73,9 @@ public static class Utils
 		// Bottom
 		Utils.DrawScreenRect( new Rect( rect.xMin, rect.yMax - thickness, rect.width, thickness ), color );
 	}
+
+	public static float ZDistFromCam(Vector3 vec)
+	{
+		return Math.Abs(vec.z - Camera.main.transform.position.z);
+	}
 }
