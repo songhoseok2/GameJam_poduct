@@ -8,6 +8,10 @@ public class Unit : MonoBehaviour {
   public int attackPower;
   public float knockback;
   public bool canAttack;
+  public Vector3 healthbarScale = new Vector3(0, 0, 0);
+
+  private GameObject healthbar;
+  public GameObject healthbarPrefab;
 
   private int hp;
 
@@ -15,7 +19,16 @@ public class Unit : MonoBehaviour {
 	void Start()
   {
     hp = maxHp;
-	}
+    if (!(healthbarScale == Vector3.zero))
+    {
+      Vector3 healthbarPos = transform.position;
+      healthbarPos.y += 1;
+      healthbarPos.z = -1;
+      healthbar = Instantiate(healthbarPrefab, healthbarPos, Quaternion.identity) as GameObject;
+      healthbar.transform.parent = transform;
+      healthbar.transform.localScale = healthbarScale;
+    }
+  }
 
 	// Update is called once per frame
 	void Update()
