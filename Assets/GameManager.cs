@@ -7,4 +7,5 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
 	public int resources;
+	public List<Selectable> selected;
 }
