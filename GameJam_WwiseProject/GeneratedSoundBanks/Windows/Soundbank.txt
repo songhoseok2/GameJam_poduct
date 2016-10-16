@@ -11,6 +11,7 @@ State Group	ID	Name			Wwise Object Path	Notes
 	1208172739	States			\Default Work Unit\States	
 
 State	ID	Name	State Group			Notes
+	221232726	Lose	States			
 	748895195	None	States			
 	2607556080	Menu	States			
 	2727857118	Prepare	States			
@@ -22,6 +23,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	49132553	Footsteps2	Y:\f16-game-jam\GameJam_WwiseProject\.cache\Windows\SFX\Footsteps2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps2		524432
 	56031754	ViolinsStacB_P1	Y:\f16-game-jam\GameJam_WwiseProject\.cache\Windows\SFX\ViolinsStacB_P1_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P1\ViolinsStacB_P1		771616
+	61201621	HeroThemeP2	Y:\f16-game-jam\GameJam_WwiseProject\.cache\Windows\SFX\HeroThemeP2_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\Lose\HeroThemeP2\HeroThemeP2		2868832
 	106587037	CelloLushBP3	Y:\f16-game-jam\GameJam_WwiseProject\.cache\Windows\SFX\CelloLushBP3_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P3\CelloLushBP3		1033760
 	110810038	DRUMSP1	Y:\f16-game-jam\GameJam_WwiseProject\.cache\Windows\SFX\DRUMSP1_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P1\DRUMSP1		1558048
 	116631487	ViolinsStacB_P3	Y:\f16-game-jam\GameJam_WwiseProject\.cache\Windows\SFX\ViolinsStacB_P3_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P3\ViolinsStacB_P3		771616
@@ -32,6 +34,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	200187068	DragonDrumP2	Y:\f16-game-jam\GameJam_WwiseProject\.cache\Windows\SFX\DragonDrumP2_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\Menu\Phrase2\DragonDrumP2		1558048
 	207049475	Death1	Y:\f16-game-jam\GameJam_WwiseProject\.cache\Windows\SFX\Death1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Death\Death1		524432
 	260323009	DragonDrumP4	Y:\f16-game-jam\GameJam_WwiseProject\.cache\Windows\SFX\DragonDrumP4_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\Menu\Phrase4\DragonDrumP4		1558048
+	276830664	HeroThemeP1	Y:\f16-game-jam\GameJam_WwiseProject\.cache\Windows\SFX\HeroThemeP1_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\Lose\HeroThemeP1\HeroThemeP1		2868832
 	325792117	ViolinsStacP4	Y:\f16-game-jam\GameJam_WwiseProject\.cache\Windows\SFX\ViolinsStacP4_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P2\ViolinsStacP4		771616
 	335138711	CoinSFX	Y:\f16-game-jam\GameJam_WwiseProject\.cache\Windows\SFX\CoinSFX_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coins\CoinSFX		242212
 	344008562	CelliLushP2	Y:\f16-game-jam\GameJam_WwiseProject\.cache\Windows\SFX\CelliLushP2_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P2\CelliLushP2		1033760
@@ -56,6 +59,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	740169552	Sword1	Y:\f16-game-jam\GameJam_WwiseProject\.cache\Windows\SFX\Sword1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swords\Sword1		278616
 	752181223	AmbientBrass_P1	Y:\f16-game-jam\GameJam_WwiseProject\.cache\Windows\SFX\AmbientBrass_P1_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\PrepareMusic\P3\AmbientBrass_P1		2344448
 	764119759	DRUMSP4	Y:\f16-game-jam\GameJam_WwiseProject\.cache\Windows\SFX\DRUMSP4_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P2\DRUMSP4		1558048
+	769963435	HeroThemeP3	Y:\f16-game-jam\GameJam_WwiseProject\.cache\Windows\SFX\HeroThemeP3_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\Lose\HeroThemeP3\HeroThemeP3		1820192
 	796905207	Death5	Y:\f16-game-jam\GameJam_WwiseProject\.cache\Windows\SFX\Death5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Death\Death5		262288
 	820963112	CelliLushP3	Y:\f16-game-jam\GameJam_WwiseProject\.cache\Windows\SFX\CelliLushP3_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P3\CelliLushP3		1033760
 	829649039	Cannon4	Y:\f16-game-jam\GameJam_WwiseProject\.cache\Windows\SFX\Cannon4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cannons\Cannon4		524432

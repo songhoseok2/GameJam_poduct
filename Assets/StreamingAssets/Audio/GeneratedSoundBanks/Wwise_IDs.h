@@ -31,6 +31,7 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID BATTLE = 2937832959U;
+                static const AkUniqueID LOSE = 221232726U;
                 static const AkUniqueID MENU = 2607556080U;
                 static const AkUniqueID PREPARE = 2727857118U;
             } // namespace STATE

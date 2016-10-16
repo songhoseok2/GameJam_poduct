@@ -34,6 +34,10 @@
 					<ShortName>ViolinsStacB_P1.wav</ShortName>
 					<Path>SFX/ViolinsStacB_P1_4B8CC0C5.wem</Path>
 				</File>
+				<File Id="61201621" Language="SFX">
+					<ShortName>HeroThemeP2.wav</ShortName>
+					<Path>SFX/HeroThemeP2_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="106587037" Language="SFX">
 					<ShortName>CelloLushBP3.wav</ShortName>
 					<Path>SFX/CelloLushBP3_4B8CC0C5.wem</Path>
@@ -65,6 +69,10 @@
 				<File Id="260323009" Language="SFX">
 					<ShortName>DragonDrumP4.wav</ShortName>
 					<Path>SFX/DragonDrumP4_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="276830664" Language="SFX">
+					<ShortName>HeroThemeP1.wav</ShortName>
+					<Path>SFX/HeroThemeP1_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="325792117" Language="SFX">
 					<ShortName>ViolinsStacP4.wav</ShortName>
@@ -129,6 +137,10 @@
 				<File Id="764119759" Language="SFX">
 					<ShortName>DRUMSP4.wav</ShortName>
 					<Path>SFX/DRUMSP4_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="769963435" Language="SFX">
+					<ShortName>HeroThemeP3.wav</ShortName>
+					<Path>SFX/HeroThemeP3_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="820963112" Language="SFX">
 					<ShortName>CelliLushP3.wav</ShortName>
@@ -210,6 +222,10 @@
 					<ShortName>ViolinsStacB_P1.wav</ShortName>
 					<Path>SFX/ViolinsStacB_P1_4B8CC0C5.wem</Path>
 				</File>
+				<File Id="61201621" Language="SFX">
+					<ShortName>HeroThemeP2.wav</ShortName>
+					<Path>SFX/HeroThemeP2_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="106587037" Language="SFX">
 					<ShortName>CelloLushBP3.wav</ShortName>
 					<Path>SFX/CelloLushBP3_4B8CC0C5.wem</Path>
@@ -253,6 +269,10 @@
 				<File Id="260323009" Language="SFX">
 					<ShortName>DragonDrumP4.wav</ShortName>
 					<Path>SFX/DragonDrumP4_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="276830664" Language="SFX">
+					<ShortName>HeroThemeP1.wav</ShortName>
+					<Path>SFX/HeroThemeP1_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="325792117" Language="SFX">
 					<ShortName>ViolinsStacP4.wav</ShortName>
@@ -345,6 +365,10 @@
 				<File Id="764119759" Language="SFX">
 					<ShortName>DRUMSP4.wav</ShortName>
 					<Path>SFX/DRUMSP4_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="769963435" Language="SFX">
+					<ShortName>HeroThemeP3.wav</ShortName>
+					<Path>SFX/HeroThemeP3_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="796905207" Language="SFX">
 					<ShortName>Death5.wav</ShortName>
