@@ -8,9 +8,13 @@ public class Unit : MonoBehaviour {
   public int attackPower;
   public float knockback;
   public bool canAttack;
-  public Vector3 healthbarScale = new Vector3(0, 0, 0);
+
+  public Vector3 healthbarScale = new Vector3(1, 1, 1);
+  public Vector3 healthbarPos = new Vector3(0, 1, -1);
 
   private GameObject healthbar;
+  private static float invisibleZ = -11;
+  private float resetZ;
   public GameObject healthbarPrefab;
 
   private int hp;
@@ -19,22 +23,50 @@ public class Unit : MonoBehaviour {
 	void Start()
   {
     hp = maxHp;
-    if (!(healthbarScale == Vector3.zero))
-    {
-      Vector3 healthbarPos = transform.position;
-      healthbarPos.y += 1;
-      healthbarPos.z = -1;
-      healthbar = Instantiate(healthbarPrefab, healthbarPos, Quaternion.identity) as GameObject;
-      healthbar.transform.parent = transform;
-      healthbar.transform.localScale = healthbarScale;
-    }
+    Vector3 pos = transform.position + healthbarPos;
+    resetZ = pos.z;
+    healthbarPos.z = invisibleZ;
+    healthbar = Instantiate(healthbarPrefab, pos, Quaternion.identity) as GameObject;
+    healthbar.transform.parent = transform;
+    healthbar.transform.localScale = healthbarScale;
   }
 
 	// Update is called once per frame
 	void Update()
   {
-    if (hp <= 0) {
+    if (hp <= 0)
+    {
       Destroy(gameObject);
+    }
+    else if (hp == maxHp)
+    {
+      if (healthbar == null) {
+        return;
+      }
+      healthbar.transform.position = new Vector3(
+        healthbar.transform.position.x,
+        healthbar.transform.position.y,
+        invisibleZ
+      );
+    }
+    else
+    {
+      if (healthbar == null) {
+        return;
+      }
+      healthbar.transform.position = new Vector3(
+        healthbar.transform.position.x,
+        healthbar.transform.position.y,
+        resetZ
+      );
+      float fHp = (float) hp;
+      float fMax = (float) maxHp;
+      Transform bar = healthbar.transform.GetChild(2);
+      bar.localScale = new Vector3(
+        fHp / fMax,
+        bar.localScale.y,
+        bar.localScale.z
+      );
     }
 	}
 
