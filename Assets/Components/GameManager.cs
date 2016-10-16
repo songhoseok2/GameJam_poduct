@@ -33,6 +33,11 @@ public class GameManager : MonoBehaviour {
 		Intermission
 	}
 
+	private float minX = -6;
+	private float maxX = 6;
+	private float minY = -7;
+	private float maxY = 7;
+
 	private List<Selectable> selected = new List<Selectable>();
 	private State state;
 	private int selectedUnit = 0;
@@ -51,7 +56,7 @@ public class GameManager : MonoBehaviour {
 
 	void Start() {
 		state = State.Intermission;
-		nextWaveTime = Time.time + intermissionLength;
+		nextWaveTime = Time.time + (intermissionLength * 3);
 		prepareWave();
 		errorText.enabled = false;
 		errorMessageFadeTime = Time.time;
@@ -65,6 +70,12 @@ public class GameManager : MonoBehaviour {
 
 	void Update() {
 		resourceText.text = "Resources: " + resources.ToString();
+
+		transform.position = new Vector3(
+				Mathf.Clamp(transform.position.x, minX, maxX),
+				Mathf.Clamp(transform.position.y, minY, maxY),
+				-10
+		);
 
 		if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) {
 			Camera.main.transform.position += Vector3.up * cameraVelocity * Time.deltaTime;

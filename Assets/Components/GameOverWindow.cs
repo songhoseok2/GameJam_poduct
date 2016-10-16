@@ -12,7 +12,9 @@ public class GameOverWindow : MonoBehaviour {
 		gameObject.SetActive(false);
 	}
 	
-	public void Show(int resources, int enemies) {
+	public void Show(int r, int e) {
+		resources.text = r.ToString();
+		enemies.text = e.ToString();
 		gameObject.SetActive(true);
 	}
 
