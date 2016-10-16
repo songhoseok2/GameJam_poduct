@@ -1,8 +1,11 @@
 using System;
+using UnityEngine.UI;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using UnityEngine;
+using System.Collections;
+
 
 public class GameManager : MonoBehaviour
 {
@@ -10,13 +13,39 @@ public class GameManager : MonoBehaviour
 	public List<Selectable> selected;
 	public int selectedUnit;
 	public GameObject troopPrefab;
-
+    public Text ResourceText;
+    public Text NotEnoughResourcesText;
 	public float cameraVelocity;
 
-	void Update()
-	{
+    private float disappearTime = 3;
+    private float messageTime = 3;
 
-		if (Input.GetKey(KeyCode.W))
+    void Start()
+    {
+        NotEnoughResourcesText.enabled = false;
+        
+        disappearTime = Time.time;
+    }
+
+    IEnumerator displayMessageForSeconds(float seconds)
+    {
+        NotEnoughResourcesText.enabled = true;
+
+        disappearTime = Time.time + 3;
+        yield return new WaitForSecondsRealtime(seconds);
+
+        if(NotEnoughResourcesText.enabled && Time.time >= disappearTime)
+        {
+            NotEnoughResourcesText.enabled = false;
+        }
+
+    }
+
+    void Update()
+	{
+        ResourceText.text = "Resource: " + resources.ToString();
+
+        if (Input.GetKey(KeyCode.W))
 		{
 			Camera.main.transform.position += Vector3.up * cameraVelocity * Time.deltaTime;
 		}
@@ -65,8 +94,22 @@ public class GameManager : MonoBehaviour
 
 	public void Build(Vector2 position)
 	{
-		Vector3 pos = new Vector3(position.x, position.y, 0);
-		Instantiate(troopPrefab, pos, Quaternion.identity);
-	}
+        if(resources >= 5)
+        {
+            Vector3 pos = new Vector3(position.x, position.y, 0);
+            Instantiate(troopPrefab, pos, Quaternion.identity);
+            resources -= 5;
+        }
+        else
+        {
+            StartCoroutine(displayMessageForSeconds(messageTime));
+        }
+
+    }
+
+    public void SetSelection(char c)
+    {
+        
+    }
 
 }
