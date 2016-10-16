@@ -79,6 +79,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Set_Game_Parameter" ID="{C93FDFFB-8AF9-4105-9919-A5345ACD0BBE}">
+					<ChildrenList>
+						<Action Name="Set Game Parameter" ID="{609DBE85-6C6C-4BB0-9D7E-0CCE063CC6EE}" ShortID="1035932316" Type="SetGameParameter" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{4B1E0431-54E3-42FD-9994-6A797D0ECD3E}" Global="false">
+									<ObjectRef Name="Intensity" ID="{DA95D37A-B41D-4719-BF02-F3137DDEB099}" WorkUnitID="{8586873A-050B-488E-93E8-DF7D19B8FE7F}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
