@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8586873A-050B-488E-93E8-DF7D19B8FE7F}" SchemaVersion="72">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{8586873A-050B-488E-93E8-DF7D19B8FE7F}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Intensity" ID="{DA95D37A-B41D-4719-BF02-F3137DDEB099}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

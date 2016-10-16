@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E91C746F-EB9C-4B46-AE40-0B92A1E7241F}" SchemaVersion="72">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{E91C746F-EB9C-4B46-AE40-0B92A1E7241F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="PlaySwords" ID="{2B670226-704D-48AD-BA66-75F9B821FAA2}">
+					<ChildrenList>
+						<Action Name="Play" ID="{B3E4DED5-AF52-4BF0-9E47-24580DD89A8E}" ShortID="19772391" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{7ED69FA0-4C4C-4415-A02C-222FCB0744FA}" Global="false">
+									<ObjectRef Name="Swords" ID="{12C76D59-2C9B-4514-84F3-1988CA6AF01F}" WorkUnitID="{2ADCD5DB-0100-4CF5-901A-934E2E5E7B1A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Death" ID="{61B9BEFB-3B64-44AF-9FF5-4412F8BFDBDD}">
+					<ChildrenList>
+						<Action Name="Play" ID="{F8F6B3DB-0A3D-4650-B706-A76415611292}" ShortID="929789939" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{46389DBE-5BC1-4192-AA1F-A50993FD4B4D}" Global="false">
+									<ObjectRef Name="Death" ID="{823E3A97-C783-4B68-BE92-F9170F6C07FB}" WorkUnitID="{2ADCD5DB-0100-4CF5-901A-934E2E5E7B1A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Purchase" ID="{B197D80B-036E-43E3-A338-73C7C7DEF211}">
+					<ChildrenList>
+						<Action Name="Play" ID="{ABFD22AB-72B7-4DD0-9890-2AD986F748F1}" ShortID="909074108" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{52FAEE23-6A54-42DB-A7E5-DB039974E2A3}" Global="false">
+									<ObjectRef Name="Coins" ID="{FED3EE24-DE0D-4628-9DE4-04BE04D30FCA}" WorkUnitID="{2ADCD5DB-0100-4CF5-901A-934E2E5E7B1A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Cannon" ID="{4C140199-782B-483E-B3B3-AFF1C47F19E7}">
+					<ChildrenList>
+						<Action Name="Play" ID="{5857A797-EB89-490C-819A-D620C3E4AADF}" ShortID="625088877" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{7860CF9D-38F6-4BAB-A246-4F09F15C2D93}" Global="false">
+									<ObjectRef Name="Cannons" ID="{E9B78C7D-A26A-44AF-8602-2F0442943B62}" WorkUnitID="{2ADCD5DB-0100-4CF5-901A-934E2E5E7B1A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayerMove" ID="{269A2E61-1E26-4F85-B122-2896F8787D4E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{6C4AFA0D-06D4-43B9-9B8D-0C6FEDAAE77A}" ShortID="863430767" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{AB06789A-8928-4DB1-BF85-0B395DBF32D5}" Global="false">
+									<ObjectRef Name="Footsteps" ID="{9EA8AF25-13AB-40CA-8B02-D940729996B2}" WorkUnitID="{2ADCD5DB-0100-4CF5-901A-934E2E5E7B1A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Set_State" ID="{A54B9F0E-3A65-4D52-8268-26A4C6C9DBDB}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{E5150477-81CB-4EB2-AE0C-2346DE0400FF}" ShortID="81022916" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="States" ID="{08EFC367-24CE-4139-B4F7-4082BA940F09}"/>
+								<GroupItem Name="Battle" ID="{421C5674-0BAE-4B60-A0AE-EE7514CA06B0}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="InitializeMusic" ID="{27CCB9D1-850C-4F47-8C57-BB1A9DC36A95}">
+					<ChildrenList>
+						<Action Name="Play" ID="{15A7837A-1524-4DE2-B883-83E815A8D5BA}" ShortID="483062673" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F73F5338-FDB0-4CD2-AF90-2A529BE46E85}" Global="false">
+									<ObjectRef Name="MusicSwitch" ID="{CF205BE6-8936-49AC-88CC-6F32CDABB3A1}" WorkUnitID="{3D28B0FF-3DF7-4759-9648-CD322B64B296}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
