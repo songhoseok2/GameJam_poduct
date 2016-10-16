@@ -59,16 +59,8 @@ public class Selection : MonoBehaviour {
         }
       }
 
-      // This is just debug output
-      var sb = new StringBuilder();
-      //sb.AppendLine(string.Format("Selected [{0}] Objects", selectedObjects.Count));
-      foreach (var selected in selectedObjects) {
-        sb.AppendLine("->" + selected.gameObject.name);
-        Debug.Log(sb.ToString());
-      }
-
       GameManager gameManager = Utils.GameManager();
-      gameManager.selected = selectedObjects;
+      gameManager.SetSelected(selectedObjects);
 
       // No longer selecting
       isSelecting = false;

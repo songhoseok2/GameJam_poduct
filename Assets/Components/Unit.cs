@@ -29,7 +29,6 @@ public class Unit : MonoBehaviour {
 		resetZ = pos.z;
 		pos.z = invisibleZ;
 		healthbar = Instantiate(Utils.GameManager().healthbarPrefab, pos, Quaternion.identity) as GameObject;
-		Debug.Log(healthbar);
 		healthbar.transform.localScale = Vector3.Scale(
 			healthbar.transform.localScale,
 			healthbarScale
@@ -47,6 +46,10 @@ public class Unit : MonoBehaviour {
 				Destroy(healthbar);
 			}
 			Destroy(gameObject);
+			if (gameObject.tag == "Enemy")
+			{
+				Utils.GameManager().EnemyKilled();
+			}
 		}
 		if (healthbar == null)
 		{
@@ -86,7 +89,6 @@ public class Unit : MonoBehaviour {
 			return;
 		}
 		// play attack animation
-		Debug.Log(name + " attacks " + target.name + " for " + attackPower + " damage");
 		target.Damage(attackPower);
 		Rigidbody2D targetRB = target.GetComponent(typeof(Rigidbody2D)) as Rigidbody2D;
 		targetRB.isKinematic = false;
@@ -101,7 +103,6 @@ public class Unit : MonoBehaviour {
 	public void Damage(int x)
 	{
 		hp -= x;
-		Debug.Log(name + " sustained " + x + " damage");
 	}
 
 }

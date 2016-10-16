@@ -1,4 +1,5 @@
 using UnityEngine;
+using System;
 using System.Collections;
 
 [RequireComponent (typeof(Unit))]
@@ -8,6 +9,8 @@ public class TroopAI : MonoBehaviour
 	public float chaseRange;
 	public string targetTag;
 	public float attackRange;
+
+	public float idleRotateSpeed = 45;
 
 	// Time between attacks
 	public float attackCooldown;
@@ -54,6 +57,11 @@ public class TroopAI : MonoBehaviour
 			if (Time.time >= wakeUp) {
 				state = State.Searching;
 			}
+			transform.eulerAngles = new Vector3(
+				transform.rotation.x,
+				transform.rotation.y,
+				transform.rotation.z + idleRotateSpeed * Time.deltaTime
+			);
 		}
 
 		else if (state == State.Moving)
@@ -75,6 +83,11 @@ public class TroopAI : MonoBehaviour
 					transform.position,
 					movingTarget,
 					Time.deltaTime * velocity
+				);
+				transform.eulerAngles = new Vector3(
+					transform.rotation.x,
+					transform.rotation.y,
+					calcAngle(movingTarget)
 				);
 			}
 
@@ -152,6 +165,11 @@ public class TroopAI : MonoBehaviour
 						chasingTarget.transform.position,
 						Time.deltaTime * velocity
 					);
+					transform.eulerAngles = new Vector3(
+						transform.eulerAngles.x,
+						transform.eulerAngles.y,
+						calcAngle(chasingTarget.transform.position)
+					);
 				}
 
 			}
@@ -170,6 +188,13 @@ public class TroopAI : MonoBehaviour
 		state = State.Moving;
 		movingTarget = new Vector3(loc.x, loc.y, transform.position.z);
 		chasingTarget = null;
+	}
+
+	float calcAngle(Vector3 dest)
+	{
+		Vector2 difference = dest - transform.position;
+		double angle = Math.Atan2(difference.x, -difference.y);
+		return (float) (angle * (180.0 / Math.PI));
 	}
 
 }
