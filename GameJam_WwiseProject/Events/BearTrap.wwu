@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2DE6B248-C296-4DA8-A9CC-B8D30F591726}" SchemaVersion="72" RootDocumentID="{E91C746F-EB9C-4B46-AE40-0B92A1E7241F}">
+	<Events>
+		<WorkUnit Name="BearTrap" ID="{2DE6B248-C296-4DA8-A9CC-B8D30F591726}" OwnerID="{E91C746F-EB9C-4B46-AE40-0B92A1E7241F}" PersistMode="Nested"/>
+	</Events>
+</WwiseDocument>

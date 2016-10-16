@@ -207,11 +207,15 @@
 			<IncludedEvents>
 				<Event Id="2393348022" Name="Cannon" ObjectPath="\Events\Default Work Unit\Cannon"/>
 				<Event Id="779278001" Name="Death" ObjectPath="\Events\Default Work Unit\Death"/>
+				<Event Id="1880695829" Name="Error" ObjectPath="\Events\Default Work Unit\Error"/>
 				<Event Id="1640319276" Name="InitializeMusic" ObjectPath="\Events\Default Work Unit\InitializeMusic"/>
 				<Event Id="2267600265" Name="PlayerMove" ObjectPath="\Events\Default Work Unit\PlayerMove"/>
 				<Event Id="1264945005" Name="PlaySwords" ObjectPath="\Events\Default Work Unit\PlaySwords"/>
 				<Event Id="3809213376" Name="Purchase" ObjectPath="\Events\Default Work Unit\Purchase"/>
+				<Event Id="1402181228" Name="Set_Game_Parameter" ObjectPath="\Events\Default Work Unit\Set_Game_Parameter" MaxAttenuation="0.000000"/>
 				<Event Id="2596512161" Name="Set_State" ObjectPath="\Events\Default Work Unit\Set_State" MaxAttenuation="0.000000"/>
+				<Event Id="3254962040" Name="Trap" ObjectPath="\Events\Default Work Unit\Trap"/>
+				<Event Id="4210596639" Name="WallCrumble" ObjectPath="\Events\Default Work Unit\WallCrumble"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="49132553" Language="SFX">

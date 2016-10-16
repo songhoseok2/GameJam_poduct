@@ -93,7 +93,8 @@
 	<ValidationCacheItem File="Y:\f16-game-jam\GameJam_WwiseProject\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1367523328" DateHigh="30549857"/>
 	<ValidationCacheItem File="Y:\f16-game-jam\GameJam_WwiseProject\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1367523328" DateHigh="30549857"/>
 	<ValidationCacheItem File="Y:\f16-game-jam\GameJam_WwiseProject\Effects\Factory McDSP Effects.wwu" DateLow="1367523328" DateHigh="30549857"/>
-	<ValidationCacheItem File="Y:\f16-game-jam\GameJam_WwiseProject\Events\Default Work Unit.wwu" DateLow="2124845312" DateHigh="30549928"/>
+	<ValidationCacheItem File="Y:\f16-game-jam\GameJam_WwiseProject\Events\BearTrap.wwu" DateLow="2099878016" DateHigh="30549929"/>
+	<ValidationCacheItem File="Y:\f16-game-jam\GameJam_WwiseProject\Events\Default Work Unit.wwu" DateLow="714910720" DateHigh="30549930"/>
 	<ValidationCacheItem File="Y:\f16-game-jam\GameJam_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1367523328" DateHigh="30549857"/>
 	<ValidationCacheItem File="Y:\f16-game-jam\GameJam_WwiseProject\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1367523328" DateHigh="30549857"/>
 	<ValidationCacheItem File="Y:\f16-game-jam\GameJam_WwiseProject\GameJam_WwiseProject.crossover.wsettings" DateLow="2819550976" DateHigh="30549919"/>
@@ -105,7 +106,7 @@
 	<ValidationCacheItem File="Y:\f16-game-jam\GameJam_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1367523328" DateHigh="30549857"/>
 	<ValidationCacheItem File="Y:\f16-game-jam\GameJam_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1367523328" DateHigh="30549857"/>
 	<ValidationCacheItem File="Y:\f16-game-jam\GameJam_WwiseProject\Queries\Factory Queries.wwu" DateLow="1367523328" DateHigh="30549857"/>
-	<ValidationCacheItem File="Y:\f16-game-jam\GameJam_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="744518272" DateHigh="30549918"/>
+	<ValidationCacheItem File="Y:\f16-game-jam\GameJam_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="714910720" DateHigh="30549930"/>
 	<ValidationCacheItem File="Y:\f16-game-jam\GameJam_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1367523328" DateHigh="30549857"/>
 	<ValidationCacheItem File="Y:\f16-game-jam\GameJam_WwiseProject\States\Default Work Unit.wwu" DateLow="4039747200" DateHigh="30549925"/>
 	<ValidationCacheItem File="Y:\f16-game-jam\GameJam_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1367523328" DateHigh="30549857"/>

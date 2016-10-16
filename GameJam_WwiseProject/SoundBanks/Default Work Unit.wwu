@@ -7,13 +7,17 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Error" ID="{88B72F87-10D2-4093-9495-880428C54923}" WorkUnitID="{2ADCD5DB-0100-4CF5-901A-934E2E5E7B1A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="WallCrumble" ID="{25383A34-DB3C-40BE-8F48-C8A7733ED2C7}" WorkUnitID="{2ADCD5DB-0100-4CF5-901A-934E2E5E7B1A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Set_Game_Parameter" ID="{C93FDFFB-8AF9-4105-9919-A5345ACD0BBE}" WorkUnitID="{E91C746F-EB9C-4B46-AE40-0B92A1E7241F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Purchase" ID="{B197D80B-036E-43E3-A338-73C7C7DEF211}" WorkUnitID="{E91C746F-EB9C-4B46-AE40-0B92A1E7241F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Death" ID="{61B9BEFB-3B64-44AF-9FF5-4412F8BFDBDD}" WorkUnitID="{E91C746F-EB9C-4B46-AE40-0B92A1E7241F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Cannon" ID="{4C140199-782B-483E-B3B3-AFF1C47F19E7}" WorkUnitID="{E91C746F-EB9C-4B46-AE40-0B92A1E7241F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Trap" ID="{C919ACCA-DFA6-485E-87A8-8A891D6DEA77}" WorkUnitID="{E91C746F-EB9C-4B46-AE40-0B92A1E7241F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="WallCrumble" ID="{8A64AE4C-0727-4865-85AF-F7F0BA4D7CBB}" WorkUnitID="{E91C746F-EB9C-4B46-AE40-0B92A1E7241F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PlaySwords" ID="{2B670226-704D-48AD-BA66-75F9B821FAA2}" WorkUnitID="{E91C746F-EB9C-4B46-AE40-0B92A1E7241F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="MusicSwitch" ID="{CF205BE6-8936-49AC-88CC-6F32CDABB3A1}" WorkUnitID="{3D28B0FF-3DF7-4759-9648-CD322B64B296}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="BearTrap" ID="{F4AE461F-A0DE-4ADB-81B2-4DAE584EDB9B}" WorkUnitID="{2ADCD5DB-0100-4CF5-901A-934E2E5E7B1A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_State" ID="{A54B9F0E-3A65-4D52-8268-26A4C6C9DBDB}" WorkUnitID="{E91C746F-EB9C-4B46-AE40-0B92A1E7241F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Error" ID="{BC5D414E-9D4D-4E8B-97EB-A2010F2B8C89}" WorkUnitID="{E91C746F-EB9C-4B46-AE40-0B92A1E7241F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="InitializeMusic" ID="{27CCB9D1-850C-4F47-8C57-BB1A9DC36A95}" WorkUnitID="{E91C746F-EB9C-4B46-AE40-0B92A1E7241F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PlayerMove" ID="{269A2E61-1E26-4F85-B122-2896F8787D4E}" WorkUnitID="{E91C746F-EB9C-4B46-AE40-0B92A1E7241F}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>

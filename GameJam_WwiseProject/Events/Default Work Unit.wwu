@@ -81,10 +81,44 @@
 				</Event>
 				<Event Name="Set_Game_Parameter" ID="{C93FDFFB-8AF9-4105-9919-A5345ACD0BBE}">
 					<ChildrenList>
-						<Action Name="Set Game Parameter" ID="{609DBE85-6C6C-4BB0-9D7E-0CCE063CC6EE}" ShortID="1035932316" Type="SetGameParameter" Scope="One" Global="false">
+						<Action Name="Set Game Parameter" ID="{609DBE85-6C6C-4BB0-9D7E-0CCE063CC6EE}" ShortID="1035932316" Type="SetGameParameter" Scope="One" Global="true">
 							<ElementList>
-								<Element ID="{4B1E0431-54E3-42FD-9994-6A797D0ECD3E}" Global="false">
+								<Element ID="{4B1E0431-54E3-42FD-9994-6A797D0ECD3E}" Global="true">
 									<ObjectRef Name="Intensity" ID="{DA95D37A-B41D-4719-BF02-F3137DDEB099}" WorkUnitID="{8586873A-050B-488E-93E8-DF7D19B8FE7F}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="WallCrumble" ID="{8A64AE4C-0727-4865-85AF-F7F0BA4D7CBB}">
+					<ChildrenList>
+						<Action Name="Play" ID="{FD1DF67C-3846-45B5-B66B-5805E128E962}" ShortID="358111579" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F9DDFB9B-241B-43BB-B56C-526F11C396CD}" Global="false">
+									<ObjectRef Name="WallCrumble" ID="{25383A34-DB3C-40BE-8F48-C8A7733ED2C7}" WorkUnitID="{2ADCD5DB-0100-4CF5-901A-934E2E5E7B1A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Error" ID="{BC5D414E-9D4D-4E8B-97EB-A2010F2B8C89}">
+					<ChildrenList>
+						<Action Name="Play" ID="{C71C4109-0D48-46E5-A65B-B2BCCC28A013}" ShortID="339005625" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{2597321B-7C3A-442B-9BDC-B728C9C70C26}" Global="false">
+									<ObjectRef Name="Error" ID="{88B72F87-10D2-4093-9495-880428C54923}" WorkUnitID="{2ADCD5DB-0100-4CF5-901A-934E2E5E7B1A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<WorkUnit Name="BearTrap" ID="{2DE6B248-C296-4DA8-A9CC-B8D30F591726}" PersistMode="Reference"/>
+				<Event Name="Trap" ID="{C919ACCA-DFA6-485E-87A8-8A891D6DEA77}">
+					<ChildrenList>
+						<Action Name="Play" ID="{C75E7D4B-AE85-435F-9CA5-B3ADE8BFD61C}" ShortID="652662194" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{9CA14120-946B-4E94-9003-438281E0D6E5}" Global="false">
+									<ObjectRef Name="BearTrap" ID="{F4AE461F-A0DE-4ADB-81B2-4DAE584EDB9B}" WorkUnitID="{2ADCD5DB-0100-4CF5-901A-934E2E5E7B1A}"/>
 								</Element>
 							</ElementList>
 						</Action>

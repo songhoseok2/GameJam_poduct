@@ -1,11 +1,15 @@
 Event	ID	Name			Wwise Object Path	Notes
 	779278001	Death			\Default Work Unit\Death	
 	1264945005	PlaySwords			\Default Work Unit\PlaySwords	
+	1402181228	Set_Game_Parameter			\Default Work Unit\Set_Game_Parameter	
 	1640319276	InitializeMusic			\Default Work Unit\InitializeMusic	
+	1880695829	Error			\Default Work Unit\Error	
 	2267600265	PlayerMove			\Default Work Unit\PlayerMove	
 	2393348022	Cannon			\Default Work Unit\Cannon	
 	2596512161	Set_State			\Default Work Unit\Set_State	
+	3254962040	Trap			\Default Work Unit\Trap	
 	3809213376	Purchase			\Default Work Unit\Purchase	
+	4210596639	WallCrumble			\Default Work Unit\WallCrumble	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	1208172739	States			\Default Work Unit\States	
