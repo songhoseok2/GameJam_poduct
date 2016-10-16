@@ -1,8 +1,73 @@
 Event	ID	Name			Wwise Object Path	Notes
+	779278001	Death			\Default Work Unit\Death	
 	1264945005	PlaySwords			\Default Work Unit\PlaySwords	
+	2267600265	PlayerMove			\Default Work Unit\PlayerMove	
+	2393348022	Cannon			\Default Work Unit\Cannon	
+	3809213376	Purchase			\Default Work Unit\Purchase	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1208172739	States			\Default Work Unit\States	
+
+State	ID	Name	State Group			Notes
+	748895195	None	States			
+	2607556080	Menu	States			
+	2727857118	Prepare	States			
+	2937832959	Battle	States			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2470328564	Intensity			\Default Work Unit\Intensity	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	49132553	Footsteps2	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\Footsteps2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps2		524432
+	56031754	ViolinsStacB_P1	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\ViolinsStacB_P1_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P1\ViolinsStacB_P1		771616
+	106587037	CelloLushBP3	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\CelloLushBP3_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P3\CelloLushBP3		1033760
+	110810038	DRUMSP1	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\DRUMSP1_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P1\DRUMSP1		1558048
+	116631487	ViolinsStacB_P3	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\ViolinsStacB_P3_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P3\ViolinsStacB_P3		771616
+	124058686	DragonDrumP3	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\DragonDrumP3_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\MenuMusic\P3\DragonDrumP3		1558048
+	125839109	Death2	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\Death2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Death\Death2		524432
+	178687406	AmbientBrass_P2	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\AmbientBrass_P2_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\PrepareMusic\P4\AmbientBrass_P2		2082304
+	187972487	Footsteps3	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\Footsteps3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps3		524432
+	200187068	DragonDrumP2	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\DragonDrumP2_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\MenuMusic\P2\DragonDrumP2		1558048
+	207049475	Death1	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\Death1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Death\Death1		524432
+	260323009	DragonDrumP4	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\DragonDrumP4_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\MenuMusic\P4\DragonDrumP4		1558048
+	325792117	ViolinsStacP4	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\ViolinsStacP4_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P2\ViolinsStacP4		771616
+	335138711	CoinSFX	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\CoinSFX_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coins\CoinSFX		242212
+	344008562	CelliLushP2	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\CelliLushP2_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P2\CelliLushP2		1033760
+	386495271	DragonDrumP5	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\DragonDrumP5_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\MenuMusic\P5\DragonDrumP5		1820192
 	402249305	Sword3	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\Sword3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swords\Sword3		524432
+	424282190	Cannon3	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\Cannon3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cannons\Cannon3		524432
+	455559373	CelloLushBP1	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\CelloLushBP1_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P1\CelloLushBP1		1033760
+	458884437	BassStacB_P3	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\BassStacB_P3_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P3\BassStacB_P3		509472
+	518447516	ViolinsStacP6	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\ViolinsStacP6_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P4\ViolinsStacP6		771616
+	536671047	ViolasStacB_P1	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\ViolasStacB_P1_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P1\ViolasStacB_P1		509472
+	557698598	Death4	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\Death4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Death\Death4		524432
+	566570157	DRUMSP3	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\DRUMSP3_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P1\DRUMSP3		1558048
+	579367614	BassStacB_P1	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\BassStacB_P1_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P1\BassStacB_P1		300428
+	599226331	BassStacB_P4_2	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\BassStacB_P4.2_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P4\BassStacB_P4_2		771616
+	603072917	ViolinsStacP3	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\ViolinsStacP3_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P1\ViolinsStacP3		771616
+	611616185	CelloLushBP4_1	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\CelloLushBP4.1_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P4\CelloLushBP4_1		600684
+	652040052	DRUMSP2	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\DRUMSP2_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P2\DRUMSP2		1295904
+	674985439	Footsteps1	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\Footsteps1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps1		524432
+	717355297	Cannon2	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\Cannon2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cannons\Cannon2		524432
 	740169552	Sword1	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\Sword1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swords\Sword1		278616
+	752181223	AmbientBrass_P1	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\AmbientBrass_P1_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\PrepareMusic\P3\AmbientBrass_P1		2344448
+	764119759	DRUMSP4	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\DRUMSP4_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P2\DRUMSP4		1558048
+	796905207	Death5	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\Death5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Death\Death5		262288
+	820963112	CelliLushP3	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\CelliLushP3_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P3\CelliLushP3		1033760
+	829649039	Cannon4	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\Cannon4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cannons\Cannon4		524432
+	833176625	CelliLushP1	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\CelliLushP1_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P1\CelliLushP1		1033760
+	834048381	P2	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\AmbientP1_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\PrepareMusic\P2\P2		1295872
+	834697026	DragonDrumP6	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\DragonDrumP6_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P1\DragonDrumP6		1033760
+	848158667	CelloLushBP2	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\CelloLushBP2_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P2\CelloLushBP2		1033760
+	878305729	CelliLushP4	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\CelliLushP4_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P4\CelliLushP4		1033760
+	890173490	DRUMSP5	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\DRUMSP5_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P4\DRUMSP5		1558048
 	931872786	Sword2	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\Sword2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swords\Sword2		278616
+	934052982	ViolinsStacB_P2	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\ViolinsStacB_P2_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P2\ViolinsStacB_P2		771616
+	936560261	ViolinsStacB_P4	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\ViolinsStacB_P4_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P4\ViolinsStacB_P4		771616
+	965402095	BassStacB_P4	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\BassStacB_P4_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P4\BassStacB_P4		509472
+	995378731	BassStacB_P2	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\BassStacB_P2_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P2\BassStacB_P2		509472
+	1011781928	Cannon1	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\Cannon1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cannons\Cannon1		786576
+	1017576469	Death3	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\Death3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Death\Death3		262288
+	1041697857	ViolinsStacP5	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\ViolinsStacP5_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\BattleMusic1\P3\ViolinsStacP5		771616
+	1048969433	DragonDrumP1	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Windows\SFX\DragonDrumP1_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\MenuMusic\P1\DragonDrumP1		1558048
 

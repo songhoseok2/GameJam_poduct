@@ -15,9 +15,11 @@ namespace AK
     {
         static const AkUniqueID CANNON = 2393348022U;
         static const AkUniqueID DEATH = 779278001U;
+        static const AkUniqueID INITIALIZEMUSIC = 1640319276U;
         static const AkUniqueID PLAYERMOVE = 2267600265U;
         static const AkUniqueID PLAYSWORDS = 1264945005U;
         static const AkUniqueID PURCHASE = 3809213376U;
+        static const AkUniqueID SET_STATE = 2596512161U;
     } // namespace EVENTS
 
     namespace STATES

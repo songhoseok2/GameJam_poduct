@@ -50,6 +50,7 @@ public class Unit : MonoBehaviour {
 			{
 				Utils.GameManager().EnemyKilled();
 			}
+			AkSoundEngine.PostEvent("Death", gameObject);
 		}
 		if (healthbar == null)
 		{
@@ -90,13 +91,14 @@ public class Unit : MonoBehaviour {
 		}
 		// play attack animation
 		target.Damage(attackPower);
-		Rigidbody2D targetRB = target.GetComponent(typeof(Rigidbody2D)) as Rigidbody2D;
-		targetRB.isKinematic = false;
-		targetRB.AddForce(
-			Vector3.Normalize(target.transform.position - transform.position) * knockback,
-			ForceMode2D.Impulse
-		);
-		targetRB.isKinematic = true;
+		//Rigidbody2D targetRB = target.GetComponent(typeof(Rigidbody2D)) as Rigidbody2D;
+		//targetRB.isKinematic = false;
+		//targetRB.AddForce(
+		//	Vector3.Normalize(target.transform.position - transform.position) * knockback,
+		//	ForceMode2D.Impulse
+		//);
+		//targetRB.isKinematic = true;
+		AkSoundEngine.PostEvent("PlaySwords", gameObject);
 	}
 
 	// Causes the Unit to sustain x damage

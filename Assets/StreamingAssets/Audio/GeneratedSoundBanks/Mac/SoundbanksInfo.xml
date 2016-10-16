@@ -29,17 +29,161 @@
 				<Event Id="1264945005" Name="PlaySwords" ObjectPath="\Events\Default Work Unit\PlaySwords"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="56031754" Language="SFX">
+					<ShortName>ViolinsStacB_P1.wav</ShortName>
+					<Path>SFX/ViolinsStacB_P1_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="106587037" Language="SFX">
+					<ShortName>CelloLushBP3.wav</ShortName>
+					<Path>SFX/CelloLushBP3_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="110810038" Language="SFX">
+					<ShortName>DRUMSP1.wav</ShortName>
+					<Path>SFX/DRUMSP1_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="116631487" Language="SFX">
+					<ShortName>ViolinsStacB_P3.wav</ShortName>
+					<Path>SFX/ViolinsStacB_P3_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="124058686" Language="SFX">
+					<ShortName>DragonDrumP3.wav</ShortName>
+					<Path>SFX/DragonDrumP3_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="178687406" Language="SFX">
+					<ShortName>AmbientBrass_P2.wav</ShortName>
+					<Path>SFX/AmbientBrass_P2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="200187068" Language="SFX">
+					<ShortName>DragonDrumP2.wav</ShortName>
+					<Path>SFX/DragonDrumP2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="252106503" Language="SFX">
+					<ShortName>DRUMSP3.wav</ShortName>
+					<Path>SFX/DRUMSP3_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="260323009" Language="SFX">
+					<ShortName>DragonDrumP4.wav</ShortName>
+					<Path>SFX/DragonDrumP4_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="325792117" Language="SFX">
+					<ShortName>ViolinsStacP4.wav</ShortName>
+					<Path>SFX/ViolinsStacP4_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="344008562" Language="SFX">
+					<ShortName>CelliLushP2.wav</ShortName>
+					<Path>SFX/CelliLushP2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="386495271" Language="SFX">
+					<ShortName>DragonDrumP5.wav</ShortName>
+					<Path>SFX/DragonDrumP5_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="402249305" Language="SFX">
 					<ShortName>Sword3.wav</ShortName>
 					<Path>SFX/Sword3_9E69E797.wem</Path>
+				</File>
+				<File Id="455559373" Language="SFX">
+					<ShortName>CelloLushBP1.wav</ShortName>
+					<Path>SFX/CelloLushBP1_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="458884437" Language="SFX">
+					<ShortName>BassStacB_P3.wav</ShortName>
+					<Path>SFX/BassStacB_P3_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="518447516" Language="SFX">
+					<ShortName>ViolinsStacP6.wav</ShortName>
+					<Path>SFX/ViolinsStacP6_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="536671047" Language="SFX">
+					<ShortName>ViolasStacB_P1.wav</ShortName>
+					<Path>SFX/ViolasStacB_P1_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="579367614" Language="SFX">
+					<ShortName>BassStacB_P1.wav</ShortName>
+					<Path>SFX/BassStacB_P1_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="599226331" Language="SFX">
+					<ShortName>BassStacB_P4.2.wav</ShortName>
+					<Path>SFX/BassStacB_P4.2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="603072917" Language="SFX">
+					<ShortName>ViolinsStacP3.wav</ShortName>
+					<Path>SFX/ViolinsStacP3_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="611616185" Language="SFX">
+					<ShortName>CelloLushBP4.1.wav</ShortName>
+					<Path>SFX/CelloLushBP4.1_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="652040052" Language="SFX">
+					<ShortName>DRUMSP2.wav</ShortName>
+					<Path>SFX/DRUMSP2_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="740169552" Language="SFX">
 					<ShortName>Sword1.wav</ShortName>
 					<Path>SFX/Sword1_9E69E797.wem</Path>
 				</File>
+				<File Id="752181223" Language="SFX">
+					<ShortName>AmbientBrass_P1.wav</ShortName>
+					<Path>SFX/AmbientBrass_P1_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="764119759" Language="SFX">
+					<ShortName>DRUMSP4.wav</ShortName>
+					<Path>SFX/DRUMSP4_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="820963112" Language="SFX">
+					<ShortName>CelliLushP3.wav</ShortName>
+					<Path>SFX/CelliLushP3_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="833176625" Language="SFX">
+					<ShortName>CelliLushP1.wav</ShortName>
+					<Path>SFX/CelliLushP1_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="834048381" Language="SFX">
+					<ShortName>AmbientP1.wav</ShortName>
+					<Path>SFX/AmbientP1_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="834697026" Language="SFX">
+					<ShortName>DragonDrumP6.wav</ShortName>
+					<Path>SFX/DragonDrumP6_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="848158667" Language="SFX">
+					<ShortName>CelloLushBP2.wav</ShortName>
+					<Path>SFX/CelloLushBP2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="878305729" Language="SFX">
+					<ShortName>CelliLushP4.wav</ShortName>
+					<Path>SFX/CelliLushP4_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="890173490" Language="SFX">
+					<ShortName>DRUMSP5.wav</ShortName>
+					<Path>SFX/DRUMSP5_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="931872786" Language="SFX">
 					<ShortName>Sword2.wav</ShortName>
 					<Path>SFX/Sword2_9E69E797.wem</Path>
+				</File>
+				<File Id="934052982" Language="SFX">
+					<ShortName>ViolinsStacB_P2.wav</ShortName>
+					<Path>SFX/ViolinsStacB_P2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="936560261" Language="SFX">
+					<ShortName>ViolinsStacB_P4.wav</ShortName>
+					<Path>SFX/ViolinsStacB_P4_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="965402095" Language="SFX">
+					<ShortName>BassStacB_P4.wav</ShortName>
+					<Path>SFX/BassStacB_P4_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="995378731" Language="SFX">
+					<ShortName>BassStacB_P2.wav</ShortName>
+					<Path>SFX/BassStacB_P2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="1041697857" Language="SFX">
+					<ShortName>ViolinsStacP5.wav</ShortName>
+					<Path>SFX/ViolinsStacP5_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="1048969433" Language="SFX">
+					<ShortName>DragonDrumP1.wav</ShortName>
+					<Path>SFX/DragonDrumP1_4B8CC0C5.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -48,20 +192,220 @@
 			<ShortName>Soundbank</ShortName>
 			<Path>Soundbank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2393348022" Name="Cannon" ObjectPath="\Events\Default Work Unit\Cannon"/>
+				<Event Id="779278001" Name="Death" ObjectPath="\Events\Default Work Unit\Death"/>
+				<Event Id="2267600265" Name="PlayerMove" ObjectPath="\Events\Default Work Unit\PlayerMove"/>
 				<Event Id="1264945005" Name="PlaySwords" ObjectPath="\Events\Default Work Unit\PlaySwords"/>
+				<Event Id="3809213376" Name="Purchase" ObjectPath="\Events\Default Work Unit\Purchase"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="49132553" Language="SFX">
+					<ShortName>Footsteps2.wav</ShortName>
+					<Path>SFX/Footsteps2_9E69E797.wem</Path>
+				</File>
+				<File Id="56031754" Language="SFX">
+					<ShortName>ViolinsStacB_P1.wav</ShortName>
+					<Path>SFX/ViolinsStacB_P1_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="106587037" Language="SFX">
+					<ShortName>CelloLushBP3.wav</ShortName>
+					<Path>SFX/CelloLushBP3_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="110810038" Language="SFX">
+					<ShortName>DRUMSP1.wav</ShortName>
+					<Path>SFX/DRUMSP1_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="116631487" Language="SFX">
+					<ShortName>ViolinsStacB_P3.wav</ShortName>
+					<Path>SFX/ViolinsStacB_P3_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="124058686" Language="SFX">
+					<ShortName>DragonDrumP3.wav</ShortName>
+					<Path>SFX/DragonDrumP3_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="125839109" Language="SFX">
+					<ShortName>Death2.wav</ShortName>
+					<Path>SFX/Death2_9E69E797.wem</Path>
+				</File>
+				<File Id="178687406" Language="SFX">
+					<ShortName>AmbientBrass_P2.wav</ShortName>
+					<Path>SFX/AmbientBrass_P2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="187972487" Language="SFX">
+					<ShortName>Footsteps3.wav</ShortName>
+					<Path>SFX/Footsteps3_9E69E797.wem</Path>
+				</File>
+				<File Id="200187068" Language="SFX">
+					<ShortName>DragonDrumP2.wav</ShortName>
+					<Path>SFX/DragonDrumP2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="207049475" Language="SFX">
+					<ShortName>Death1.wav</ShortName>
+					<Path>SFX/Death1_9E69E797.wem</Path>
+				</File>
+				<File Id="252106503" Language="SFX">
+					<ShortName>DRUMSP3.wav</ShortName>
+					<Path>SFX/DRUMSP3_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="260323009" Language="SFX">
+					<ShortName>DragonDrumP4.wav</ShortName>
+					<Path>SFX/DragonDrumP4_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="325792117" Language="SFX">
+					<ShortName>ViolinsStacP4.wav</ShortName>
+					<Path>SFX/ViolinsStacP4_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="335138711" Language="SFX">
+					<ShortName>CoinSFX.wav</ShortName>
+					<Path>SFX/CoinSFX_9E69E797.wem</Path>
+				</File>
+				<File Id="344008562" Language="SFX">
+					<ShortName>CelliLushP2.wav</ShortName>
+					<Path>SFX/CelliLushP2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="386495271" Language="SFX">
+					<ShortName>DragonDrumP5.wav</ShortName>
+					<Path>SFX/DragonDrumP5_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="402249305" Language="SFX">
 					<ShortName>Sword3.wav</ShortName>
 					<Path>SFX/Sword3_9E69E797.wem</Path>
+				</File>
+				<File Id="424282190" Language="SFX">
+					<ShortName>Cannon3.wav</ShortName>
+					<Path>SFX/Cannon3_9E69E797.wem</Path>
+				</File>
+				<File Id="455559373" Language="SFX">
+					<ShortName>CelloLushBP1.wav</ShortName>
+					<Path>SFX/CelloLushBP1_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="458884437" Language="SFX">
+					<ShortName>BassStacB_P3.wav</ShortName>
+					<Path>SFX/BassStacB_P3_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="518447516" Language="SFX">
+					<ShortName>ViolinsStacP6.wav</ShortName>
+					<Path>SFX/ViolinsStacP6_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="536671047" Language="SFX">
+					<ShortName>ViolasStacB_P1.wav</ShortName>
+					<Path>SFX/ViolasStacB_P1_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="557698598" Language="SFX">
+					<ShortName>Death4.wav</ShortName>
+					<Path>SFX/Death4_9E69E797.wem</Path>
+				</File>
+				<File Id="579367614" Language="SFX">
+					<ShortName>BassStacB_P1.wav</ShortName>
+					<Path>SFX/BassStacB_P1_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="599226331" Language="SFX">
+					<ShortName>BassStacB_P4.2.wav</ShortName>
+					<Path>SFX/BassStacB_P4.2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="603072917" Language="SFX">
+					<ShortName>ViolinsStacP3.wav</ShortName>
+					<Path>SFX/ViolinsStacP3_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="611616185" Language="SFX">
+					<ShortName>CelloLushBP4.1.wav</ShortName>
+					<Path>SFX/CelloLushBP4.1_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="652040052" Language="SFX">
+					<ShortName>DRUMSP2.wav</ShortName>
+					<Path>SFX/DRUMSP2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="674985439" Language="SFX">
+					<ShortName>Footsteps1.wav</ShortName>
+					<Path>SFX/Footsteps1_9E69E797.wem</Path>
+				</File>
+				<File Id="717355297" Language="SFX">
+					<ShortName>Cannon2.wav</ShortName>
+					<Path>SFX/Cannon2_9E69E797.wem</Path>
 				</File>
 				<File Id="740169552" Language="SFX">
 					<ShortName>Sword1.wav</ShortName>
 					<Path>SFX/Sword1_9E69E797.wem</Path>
 				</File>
+				<File Id="752181223" Language="SFX">
+					<ShortName>AmbientBrass_P1.wav</ShortName>
+					<Path>SFX/AmbientBrass_P1_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="764119759" Language="SFX">
+					<ShortName>DRUMSP4.wav</ShortName>
+					<Path>SFX/DRUMSP4_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="796905207" Language="SFX">
+					<ShortName>Death5.wav</ShortName>
+					<Path>SFX/Death5_9E69E797.wem</Path>
+				</File>
+				<File Id="820963112" Language="SFX">
+					<ShortName>CelliLushP3.wav</ShortName>
+					<Path>SFX/CelliLushP3_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="829649039" Language="SFX">
+					<ShortName>Cannon4.wav</ShortName>
+					<Path>SFX/Cannon4_9E69E797.wem</Path>
+				</File>
+				<File Id="833176625" Language="SFX">
+					<ShortName>CelliLushP1.wav</ShortName>
+					<Path>SFX/CelliLushP1_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="834048381" Language="SFX">
+					<ShortName>AmbientP1.wav</ShortName>
+					<Path>SFX/AmbientP1_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="834697026" Language="SFX">
+					<ShortName>DragonDrumP6.wav</ShortName>
+					<Path>SFX/DragonDrumP6_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="848158667" Language="SFX">
+					<ShortName>CelloLushBP2.wav</ShortName>
+					<Path>SFX/CelloLushBP2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="878305729" Language="SFX">
+					<ShortName>CelliLushP4.wav</ShortName>
+					<Path>SFX/CelliLushP4_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="890173490" Language="SFX">
+					<ShortName>DRUMSP5.wav</ShortName>
+					<Path>SFX/DRUMSP5_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="931872786" Language="SFX">
 					<ShortName>Sword2.wav</ShortName>
 					<Path>SFX/Sword2_9E69E797.wem</Path>
+				</File>
+				<File Id="934052982" Language="SFX">
+					<ShortName>ViolinsStacB_P2.wav</ShortName>
+					<Path>SFX/ViolinsStacB_P2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="936560261" Language="SFX">
+					<ShortName>ViolinsStacB_P4.wav</ShortName>
+					<Path>SFX/ViolinsStacB_P4_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="965402095" Language="SFX">
+					<ShortName>BassStacB_P4.wav</ShortName>
+					<Path>SFX/BassStacB_P4_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="995378731" Language="SFX">
+					<ShortName>BassStacB_P2.wav</ShortName>
+					<Path>SFX/BassStacB_P2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="1011781928" Language="SFX">
+					<ShortName>Cannon1.wav</ShortName>
+					<Path>SFX/Cannon1_9E69E797.wem</Path>
+				</File>
+				<File Id="1017576469" Language="SFX">
+					<ShortName>Death3.wav</ShortName>
+					<Path>SFX/Death3_9E69E797.wem</Path>
+				</File>
+				<File Id="1041697857" Language="SFX">
+					<ShortName>ViolinsStacP5.wav</ShortName>
+					<Path>SFX/ViolinsStacP5_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="1048969433" Language="SFX">
+					<ShortName>DragonDrumP1.wav</ShortName>
+					<Path>SFX/DragonDrumP1_4B8CC0C5.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

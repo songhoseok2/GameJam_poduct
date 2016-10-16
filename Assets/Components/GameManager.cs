@@ -51,6 +51,7 @@ public class GameManager : MonoBehaviour
 		errorMessageFadeTime = Time.time;
 		nextEnemyTime = Time.time;
 		SetSelection(0);
+		AkSoundEngine.SetState("States", "Prepare");
 	}
 
 	void Update()
@@ -90,6 +91,7 @@ public class GameManager : MonoBehaviour
 					troop.MoveTo(dest);
 				}
 			}
+			AkSoundEngine.PostEvent("PlayerMove", gameObject);
 		}
 
 		else if (Input.GetMouseButtonDown(1))
@@ -136,6 +138,7 @@ public class GameManager : MonoBehaviour
 		if (state == State.Intermission && Time.time >= nextWaveTime)
 		{
 			state = State.Combat;
+			AkSoundEngine.SetState("States", "Battle");
 		}
 
 		else if (state == State.Combat && enemiesRemaining <= 0)
@@ -143,6 +146,7 @@ public class GameManager : MonoBehaviour
 			nextWaveTime = Time.time + intermissionLength;
 			state = State.Intermission;
 			waveNumber++;
+			AkSoundEngine.SetState("States", "Prepare");
 			prepareWave();
 		}
 
@@ -160,6 +164,7 @@ public class GameManager : MonoBehaviour
 			Vector3 pos = new Vector3(position.x, position.y, 0);
 			Instantiate(unitMap[selectedUnit], pos, Quaternion.identity);
 			resources -= unitMap[selectedUnit].cost;
+			AkSoundEngine.PostEvent("Purchase", gameObject);
 		}
 		else
 		{
@@ -183,6 +188,7 @@ public class GameManager : MonoBehaviour
 
 	public void DisplayErrorMessage(string error, float length)
 	{
+		AkSoundEngine.PostEvent("Error", gameObject);
 		errorText.text = error;
 		errorText.enabled = true;
 		errorMessageFadeTime = Time.time + length;
