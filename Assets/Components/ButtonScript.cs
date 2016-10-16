@@ -4,12 +4,11 @@ using System.Collections;
 
 public class ButtonScript : MonoBehaviour
 {
-    public char buttonID;
-    // Use this for initialization
-	
+	public int buttonID = -1;
+
 	public void clicked()
-    {
-        Utils.GameManager().SetSelection(buttonID);
-    }
+	{
+		Utils.GameManager().SetSelection(buttonID);
+	}
 
 }

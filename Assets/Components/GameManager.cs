@@ -11,41 +11,41 @@ public class GameManager : MonoBehaviour
 {
 	public int resources;
 	public List<Selectable> selected;
-	public int selectedUnit;
 	public GameObject troopPrefab;
-    public Text ResourceText;
-    public Text NotEnoughResourcesText;
+	public Text ResourceText;
+	public Text NotEnoughResourcesText;
 	public float cameraVelocity;
+	public GameObject healthbarPrefab;
 
-    private float disappearTime = 3;
-    private float messageTime = 3;
+	public Unit[] unitMap;
 
-    void Start()
-    {
-        NotEnoughResourcesText.enabled = false;
-        
-        disappearTime = Time.time;
-    }
+	private int selectedUnit = 0;
+	private float disappearTime = 3;
+	private float messageTime = 3;
 
-    IEnumerator displayMessageForSeconds(float seconds)
-    {
-        NotEnoughResourcesText.enabled = true;
+		void Start()
+		{
+				NotEnoughResourcesText.enabled = false;
 
-        disappearTime = Time.time + 3;
-        yield return new WaitForSecondsRealtime(seconds);
+				disappearTime = Time.time;
+		}
 
-        if(NotEnoughResourcesText.enabled && Time.time >= disappearTime)
-        {
-            NotEnoughResourcesText.enabled = false;
-        }
+		void displayMessageForSeconds(float seconds)
+		{
+			NotEnoughResourcesText.enabled = true;
+			disappearTime = Time.time + 3;
+			if(NotEnoughResourcesText.enabled && Time.time >= disappearTime)
+			{
+					NotEnoughResourcesText.enabled = false;
+			}
 
-    }
+		}
 
-    void Update()
+	void Update()
 	{
-        ResourceText.text = "Resource: " + resources.ToString();
+		ResourceText.text = "Resource: " + resources.ToString();
 
-        if (Input.GetKey(KeyCode.W))
+		if (Input.GetKey(KeyCode.W))
 		{
 			Camera.main.transform.position += Vector3.up * cameraVelocity * Time.deltaTime;
 		}
@@ -94,22 +94,28 @@ public class GameManager : MonoBehaviour
 
 	public void Build(Vector2 position)
 	{
-        if(resources >= 5)
-        {
-            Vector3 pos = new Vector3(position.x, position.y, 0);
-            Instantiate(troopPrefab, pos, Quaternion.identity);
-            resources -= 5;
-        }
-        else
-        {
-            StartCoroutine(displayMessageForSeconds(messageTime));
-        }
+		if (resources >= unitMap[selectedUnit].cost)
+		{
+			Vector3 pos = new Vector3(position.x, position.y, 0);
+			Instantiate(unitMap[selectedUnit], pos, Quaternion.identity);
+			resources -= unitMap[selectedUnit].cost;
+		}
+		else
+		{
+			displayMessageForSeconds(messageTime);
+		}
+	}
 
-    }
-
-    public void SetSelection(char c)
-    {
-        
-    }
+	public void SetSelection(int i)
+	{
+		if (0 <= i && i < unitMap.Length)
+		{
+			selectedUnit = i;
+		}
+		else
+		{
+			Debug.Log("Invalid index passed to GameManager.SetSelection");
+		}
+	}
 
 }
