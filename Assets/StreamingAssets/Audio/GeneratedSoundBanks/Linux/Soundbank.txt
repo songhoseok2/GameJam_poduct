@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1264945005	PlaySwords			\Default Work Unit\PlaySwords	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	402249305	Sword3	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Linux\SFX\Sword3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swords\Sword3		524432
+	740169552	Sword1	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Linux\SFX\Sword1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swords\Sword1		278616
+	931872786	Sword2	Y:\Documents\WwiseProjects\GameJam_WwiseProject\.cache\Linux\SFX\Sword2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swords\Sword2		278616
+
