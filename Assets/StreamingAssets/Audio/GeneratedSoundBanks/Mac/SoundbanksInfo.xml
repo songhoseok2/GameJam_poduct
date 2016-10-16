@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>/Users/MacUser/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Documents/WwiseProjects/GameJam_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/MacUser/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Documents/WwiseProjects/GameJam_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/MacUser/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Documents/WwiseProjects/GameJam_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/MacUser/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Documents/WwiseProjects/GameJam_WwiseProject/GeneratedSoundBanks/Mac/</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="534561221" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\MainSoundBank</ObjectPath>
+			<ShortName>MainSoundBank</ShortName>
+			<Path>MainSoundBank.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1647770722" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SoundBank2</ObjectPath>
+			<ShortName>SoundBank2</ShortName>
+			<Path>SoundBank2.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1264945005" Name="PlaySwords" ObjectPath="\Events\Default Work Unit\PlaySwords"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="402249305" Language="SFX">
+					<ShortName>Sword3.wav</ShortName>
+					<Path>SFX/Sword3_9E69E797.wem</Path>
+				</File>
+				<File Id="740169552" Language="SFX">
+					<ShortName>Sword1.wav</ShortName>
+					<Path>SFX/Sword1_9E69E797.wem</Path>
+				</File>
+				<File Id="931872786" Language="SFX">
+					<ShortName>Sword2.wav</ShortName>
+					<Path>SFX/Sword2_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1661994096" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Soundbank</ObjectPath>
+			<ShortName>Soundbank</ShortName>
+			<Path>Soundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1264945005" Name="PlaySwords" ObjectPath="\Events\Default Work Unit\PlaySwords"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="402249305" Language="SFX">
+					<ShortName>Sword3.wav</ShortName>
+					<Path>SFX/Sword3_9E69E797.wem</Path>
+				</File>
+				<File Id="740169552" Language="SFX">
+					<ShortName>Sword1.wav</ShortName>
+					<Path>SFX/Sword1_9E69E797.wem</Path>
+				</File>
+				<File Id="931872786" Language="SFX">
+					<ShortName>Sword2.wav</ShortName>
+					<Path>SFX/Sword2_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

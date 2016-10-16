@@ -5,7 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
-public class Selection : MonoBehaviour {
+public class UnitSelection : MonoBehaviour {
 
   // Whether the player is currently selecting troops
   bool isSelecting = false;
