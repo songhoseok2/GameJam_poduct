@@ -48,7 +48,7 @@ public class Unit : MonoBehaviour {
 			Destroy(gameObject);
 			if (gameObject.tag == "Enemy")
 			{
-				Utils.GameManager().EnemyKilled();
+				Utils.GameManager().EnemyKilled(cost);
 			}
 			AkSoundEngine.PostEvent("Death", gameObject);
 		}
@@ -105,6 +105,10 @@ public class Unit : MonoBehaviour {
 	public void Damage(int x)
 	{
 		hp -= x;
+	}
+
+	public int GetHp() {
+		return hp;
 	}
 
 }

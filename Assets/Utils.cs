@@ -8,7 +8,12 @@ public static class Utils
 {
 
 	public static GameManager GameManager() {
-    return Camera.main.GetComponent(typeof(GameManager)) as GameManager;
+		if (Camera.main != null) {
+			return Camera.main.GetComponent(typeof(GameManager)) as GameManager;
+		}
+		else {
+			return null;
+		}
 	}
 
 	static Texture2D _whiteTexture;
