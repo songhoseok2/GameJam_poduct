@@ -32,6 +32,6 @@ public class SpawnEnemies : MonoBehaviour
             next_spawn = Time.time + spawnInterval;
         }
 
-        wait(5);
+        wait(3);
     }
 }

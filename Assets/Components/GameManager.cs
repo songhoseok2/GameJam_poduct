@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour {
 	public Unit[] enemyMap;
 	public int[] enemyDifficulties;
 	public float enemySpawnInterval = 5;
-	public float intermissionLength = 30;
+	public float intermissionLength = 20;
 	public string enemySpawnLocationTag = "Spawner";
 	public Text statusText;
 	public List<Button> unitButtons;
